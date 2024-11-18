@@ -2,8 +2,7 @@ import mongoose from 'mongoose'
 
 const connectToDb = async () => {
     try {
-        await mongoose.connect('mongodb+srv://webuilddd:notnpc@cluster0.csxdmcb.mongodb.net/?retryWrites=true&w=majority')
-        console.log('Connected to MongoDB Successfully')
+        await mongoose.connect('your url')
     } catch (error) {
         console.log(error)
     }
